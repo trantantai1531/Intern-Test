@@ -1,0 +1,454 @@
+:root {
+  --black: #1a1a1a;
+  --tomato: #ea4913;
+  --cerulean: #0565bb;
+  --white-two: #eee;
+  --kelley-green: #00833f;
+  --lavender: #c6b8f5;
+  --dark-brown: #110e03;
+  --bright-orange-two: #f50;
+  --mango: #ffb225;
+  --tomato-two: #e84c33;
+  --bluish: #2584b3;
+  --sand: #dabb5e;
+  --copper: #c73c27;
+  --mango-two: #ffb227;
+  --eggshell: #fffbd8;
+  --tomato-three: #e0412a;
+  --light-grey: #ced1c8;
+  --pinkish-grey: #d4c4ab;
+  --cloudy-blue: #b1d1cf;
+  --light-grey-two: #d8dad7;
+  --mid-blue: #245fc5;
+  --greyish: #a9a9a9;
+  --sun-yellow: #fcd32a;
+  --dark: #1c2027;
+  --white-three: #f4f4f4;
+  --brownish-grey: #666;
+  --pumpkin-orange: #fa7b26;
+  --pinkish-grey-two: #ccc8c6;
+  --white-four: #f1f1f1;
+  --dark-maroon: #020001;
+  --black-three: #222;
+  --clear-blue: #157eff;
+  --bright-orange: #f96400;
+  --goldenrod: #fccb05;
+  --black-two: #111;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Regular),
+    url(/path/to/Montserrat-Regular.woff2) format("woff2"),
+    url(/path/to/Montserrat-Regular.woff) format("woff"),
+    url(/path/to/Montserrat-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Medium),
+    url(/path/to/Montserrat-Medium.woff2) format("woff2"),
+    url(/path/to/Montserrat-Medium.woff) format("woff"),
+    url(/path/to/Montserrat-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-SemiBold),
+    url(/path/to/Montserrat-SemiBold.woff2) format("woff2"),
+    url(/path/to/Montserrat-SemiBold.woff) format("woff"),
+    url(/path/to/Montserrat-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Bold),
+    url(/path/to/Montserrat-Bold.woff2) format("woff2"),
+    url(/path/to/Montserrat-Bold.woff) format("woff"),
+    url(/path/to/Montserrat-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-ExtraBoldItalic),
+    url(/path/to/Montserrat-ExtraBoldItalic.woff2) format("woff2"),
+    url(/path/to/Montserrat-ExtraBoldItalic.woff) format("woff"),
+    url(/path/to/Montserrat-ExtraBoldItalic.ttf) format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-ExtraBold),
+    url(/path/to/Montserrat-ExtraBold.woff2) format("woff2"),
+    url(/path/to/Montserrat-ExtraBold.woff) format("woff"),
+    url(/path/to/Montserrat-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: NotoSansCJKkr;
+  src: local(NotoSansCJKkr-DemiLight),
+    url(/path/to/NotoSansCJKkr-DemiLight.woff2) format("woff2"),
+    url(/path/to/NotoSansCJKkr-DemiLight.woff) format("woff"),
+    url(/path/to/NotoSansCJKkr-DemiLight.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: NotoSansCJKkr;
+  src: local(NotoSansCJKkr-Light),
+    url(/path/to/NotoSansCJKkr-Light.woff2) format("woff2"),
+    url(/path/to/NotoSansCJKkr-Light.woff) format("woff"),
+    url(/path/to/NotoSansCJKkr-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: NotoSansCJKkr;
+  src: local(NotoSansCJKkr-Regular),
+    url(/path/to/NotoSansCJKkr-Regular.woff2) format("woff2"),
+    url(/path/to/NotoSansCJKkr-Regular.woff) format("woff"),
+    url(/path/to/NotoSansCJKkr-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: NotoSansCJKkr;
+  src: local(NotoSansCJKkr-Medium),
+    url(/path/to/NotoSansCJKkr-Medium.woff2) format("woff2"),
+    url(/path/to/NotoSansCJKkr-Medium.woff) format("woff"),
+    url(/path/to/NotoSansCJKkr-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+.Text-Style-19 {
+  font-family: Montserrat;
+  font-size: 171.5px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+.Text-Style-13 {
+  font-family: Montserrat;
+  font-size: 171.5px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-4 {
+  font-family: NotoSansCJKkr;
+  font-size: 64px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  
+  color: var(--black-two);
+}
+.Text-Style-21 {
+  font-family: Montserrat;
+  font-size: 59px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 8.75;
+  letter-spacing: normal;
+  
+  color: var(--black-two);
+}
+.Text-Style-25 {
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  
+  color: var(--dark-brown);
+}
+.Text-Style-12 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.54;
+  letter-spacing: normal;
+  
+  color: var(--black-two);
+}
+.Text-Style-5 {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  
+  color: var(--bright-orange);
+}
+.Text-Style-3 {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  
+  color: var(--sun-yellow);
+}
+.Text-Style-23 {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 4.5px;
+  
+  color: var(--dark-brown);
+}
+.Text-Style-2 {
+  font-family: NotoSansCJKkr;
+  font-size: 35px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  
+  color: var(--black-three);
+}
+.Text-Style-24 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-17 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  
+  color: var(--dark-brown);
+}
+.Text-Style-22 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  
+  color: var(--black-three);
+}
+.Text-Style-20 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  
+}
+.Text-Style {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  
+}
+.Text-Style-28 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.35;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-6 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-16 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  
+  color: var(--bright-orange);
+}
+.Text-Style-14 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.94;
+  letter-spacing: normal;
+  
+  color: var(--black-three);
+}
+.Text-Style-29 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-18 {
+  font-family: NotoSansCJKkr;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  
+  color: var(--clear-blue);
+}
+.Text-Style-7 {
+  font-family: NotoSansCJKkr;
+  font-size: 17.5px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  
+  color: #abacaf;
+}
+.Text-Style-8 {
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  
+  color: var(--black-three);
+}
+.Text-Style-9 {
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  
+  color: var(--dark-brown);
+}
+.Text-Style-10 {
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  
+  color: var(--sun-yellow);
+}
+.Text-Style-15 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  
+  color: var(--black-two);
+}
+.Text-Style-27 {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  
+  color: var(--greyish);
+}
+.Text-Style-11 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  
+  color: #fff;
+}
+.Text-Style-26 {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  
+  color: var(--black-two);
+}

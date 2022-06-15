@@ -1,0 +1,18 @@
+.search_box {
+  width: clamp(200px,70vw,660px);
+  height: 36px;
+  background-color: #070707;
+  border: 0px;
+  border-bottom: 1px solid #8f8f8f;
+  padding-left: 26px;
+}
+
+input::placeholder{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #fff;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
