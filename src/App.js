@@ -64,7 +64,7 @@ function App() {
 
   const handleGenreClick = (e) => {
     setPage(1);
-    setGenre(e.target.innerText);
+    setGenre((prev) => prev === 'all' ? e.target.innerText : 'all');
   }
 
   const handleQuerySubmit = (e) => {
